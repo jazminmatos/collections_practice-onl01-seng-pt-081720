@@ -77,9 +77,7 @@ end
 #advanced - try using .inject method
 
 def add_s(array) #take in array of strings
-  new_array = []
-  new_array << array.each_with_index {|element, index|}
-  new_array
+  array.each_with_index {|element, index|}
 end
 
 #add "s" to each word EXCEPT for 2nd element (index = 1)
