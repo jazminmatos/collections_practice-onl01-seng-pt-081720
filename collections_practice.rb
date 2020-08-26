@@ -61,7 +61,6 @@ def kesha_maker(array) #take in array of strings
 end
 #replace third character in each string w/ $
 #use .each method
-#build new array
 
 
 
