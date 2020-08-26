@@ -79,6 +79,7 @@ end
 def add_s(array) #take in array of strings
   new_array = []
   new_array << array.each_with_index.collect {|element, index|}
+  new_array
 end
 
 #add "s" to each word EXCEPT for 2nd element (index = 1)
