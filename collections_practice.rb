@@ -76,11 +76,12 @@ end
 #return sum of integers
 #advanced - try using .inject method
 
-def add_s()
-
+def add_s(array) #take in array of strings
+  array.each_with_index.collect {|element, index|}
 end
 
 #add "s" to each word EXCEPT for 2nd element (index = 1)
+#try using .each_with_index w/ .collect
 
 
 
