@@ -57,8 +57,7 @@ end
 # if return = 1, will swap
 
 def kesha_maker(array) #take in array of strings
-  array.each do |name|
-   name[2] = "$"
+  array.each {|name| name[2] = "$"]
   end
 end
 #replace third character in each string w/ $
