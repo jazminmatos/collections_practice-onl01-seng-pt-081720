@@ -80,6 +80,7 @@ def add_s(array) #take in array of strings
   array.each_with_index do |element, index|
     if index < 1 || index > 1
       element + "s"
+    end
   end
 end
 
