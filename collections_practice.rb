@@ -69,9 +69,12 @@ def find_a(array)
 end
 #return all strings in array that start w/ letter "a"
 
-def sum_array()
+def sum_array() #take in array of integers
 
 end
+#add together all the integers in array
+#return sum of integers
+#advanced - try using .inject method
 
 
 
