@@ -64,7 +64,7 @@ end
 
 def find_a(array)
   array.select do |fruit|
-    fruit.start_with?
+    fruit.start_with? = "a"
 end
 #return all strings in array that start w/ letter "a"
 
