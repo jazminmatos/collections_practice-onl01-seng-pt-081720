@@ -78,7 +78,7 @@ end
 
 def add_s(array) #take in array of strings
   new_array = []
-  new_array << array.each_with_index{|element, index|}
+  new_array << array.each_with_index {|element, index|}
   new_array
 end
 
