@@ -79,7 +79,7 @@ end
 def add_s(array) #take in array of strings
   array.each_with_index {|element, index|
     if index < 1 || index > 1
-      
+      element + "s"
   }
 end
 
