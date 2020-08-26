@@ -69,6 +69,10 @@ def find_a(array)
 end
 #return all strings in array that start w/ letter "a"
 
+def sum_array()
+
+end
+
 
 
 
